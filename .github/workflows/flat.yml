@@ -16,7 +16,7 @@ jobs:
       - name: Check out repo
         uses: actions/checkout@v2
       - name: Fetch data
-        uses: githubocto/flat@v2
+        uses: githubocto/flat@v3
         with:
           http_url: https://efile.fara.gov/api/v1/Registrants/csv/Terminated
           downloaded_filename: data.csv
